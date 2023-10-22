@@ -1,16 +1,71 @@
 {
-  "posts":[
+  "professor": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "nome": "Teste01",
+      "disciplina": "Teste01",
+      "perfil": "Professor",
+      "ativo": true,
+      "id": 2
+    },
+    {
+      "nome": "Teste02",
+      "disciplina": "teste02",
+      "perfil": "Coordenador",
+      "ativo": false,
+      "id": 3
+    },
+    {
+      "nome": "",
+      "disciplina": "",
+      "perfil": "Professor",
+      "ativo": false,
+      "id": 4
+    },
+    {
+      "nome": "",
+      "disciplina": "",
+      "perfil": "Professor",
+      "ativo": false,
+      "id": 5
+    },
+    {
+      "nome": "",
+      "disciplina": "",
+      "perfil": "Professor",
+      "ativo": false,
+      "id": 6
     }
   ],
-  "comments" : [
+  "aluno": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "nome": "Aluno03",
+      "turma": "Turma03",
+      "ativo": true,
+      "id": 2
+    },
+    {
+      "nome": "Aluno02",
+      "turma": "Turma02",
+      "ativo": false,
+      "id": 3
+    },
+    {
+      "nome": "",
+      "turma": "",
+      "ativo": false,
+      "id": 4
+    },
+    {
+      "nome": "",
+      "turma": "",
+      "ativo": false,
+      "id": 5
+    },
+    {
+      "nome": "",
+      "turma": "",
+      "ativo": false,
+      "id": 6
     }
   ]
 }
